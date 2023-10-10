@@ -40,7 +40,7 @@ const NosotrosPage = () => {
           matricula={2000179}
           carrera={'ITS'}
           correo={'Aguayocarlos32@gmail.com'} 
-          conclusion={''}
+          conclusion={'Ha sido una experiencia gratificante desarrollar un proyecto en el que he construido una página web para estudiar las características de Windows. Durante este proceso he tenido la oportunidad de explorar el sistema operativo Windows y comprender mejor sus características y ventajas. Con el fin de facilitar la comprensión de las características de Windows a todas las personas que lo visiten, se ha podido organizar la información mediante la creación de la página web. También he adquirido nuevas habilidades tecnológicas y de comunicación como resultado de los procesos de investigación y diseño del sitio'}
         />
 
         <IndividuoContainer 

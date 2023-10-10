@@ -11,8 +11,9 @@ const InfoContainer = () => {
                 <p className="text-md mt-5">La palabra Windows, que proviene del inglés y significa ventanas, alude a la estructura del software que permite visualizar múltiples contenidos (como programas y archivos) organizados en compartimentos o ventanas diferentes.</p>
             </div>
 
-            <div className="w-full md:w-1/4 flex justify-center">
+            <div className="w-full md:w-1/4 flex flex-col items-center">
                 <Image src={logo} width={500} height={500} alt="Imagen Windows" className="h-auto w-40 md:w-full" /> 
+                <p className='text-xs text-gray-700 mt-2' >Imagen 1. Logo de Windows</p>
             </div>
         </div>
     )

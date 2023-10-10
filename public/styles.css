@@ -14,9 +14,14 @@
     background-size: cover;
 }
 .container {
-    padding: 50px 15%;
+    padding: 50px;
     width: 100%;
     max-width: none;
+}
+@media (min-width: 768px) {
+    .container {
+        padding: 50px 15%;
+    }
 }
 .bgColorContainer {
     --s: 50px;
