@@ -15,7 +15,7 @@ const listadoFunciones = [
         texto: 'Windows te permite realizar varias tareas simultáneamente. Puedes abrir varias ventanas y aplicaciones al mismo tiempo y alternar entre ellas usando la barra de tareas o los atajos de teclado, como “Alt + Tab”.',
     },
     {
-        nombre: 'Mantenimiento del sistema::',
+        nombre: 'Mantenimiento del sistema:',
         texto: 'Windows incluye herramientas de mantenimiento del sistema para mantener tu computadora funcionando sin problemas. El “Panel de control” contiene herramientas para desinstalar programas, realizar copias de seguridad y restaurar el sistema a un estado anterior.',
     },
 ]
