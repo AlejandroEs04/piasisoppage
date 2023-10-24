@@ -1,15 +1,5 @@
 export const listadoVersiones = [
     {
-        nombre: 'Windows 1.X/ 2.x',
-        texto: 'Significó un gran cambio para los sistemas operativos de la época que se basaban en representaciones de textos. Esta versión empleó representaciones gráficas de tipo monocromáticas. ',
-        imagen: 'windows1.png'
-    },
-    {
-        nombre: 'Windows 3.x',
-        texto: 'Se lanzó como una interfaz multitareas y netamente a color que contenía nuevos conceptos informáticos, como íconos, carpetas, barra de tareas y papel tapiz, entre otros ',
-        imagen: 'windows3.jpg'
-    },
-    {
         nombre: 'Windows 95',
         texto: 'Fue una versión completamente mejorada con una gestión de entornos de 32 bits y la función plug and play que permitía conectar y ejecutar un dispositivo al ordenador sin tener que realizar una configuración previa. ',
         imagen: 'windows95.jpg'
@@ -23,14 +13,6 @@ export const listadoVersiones = [
         nombre: 'Windows 98/ 98 SE',
         texto: 'Fue una versión muy similar a su antecesora, pero que ofreció una mejoría para el reconocimiento de más variedad de dispositivos externos mediante la función plug and play. ',
         imagen: 'windows98.jpg'
-    },
-    {
-        nombre: 'Windows 2000',
-        texto: 'fue una evolución de la versión Windows con la mejora en el reconocimiento del hardware, del soporte de 64 bits y del servicio de Active Directory (Directorio activo), que permitía compartir dispositivos en red, como una impresora, un router o un servidor con otros ordenadores que también estaban conectados a la red. ',
-    },
-    {
-        nombre: 'Windows Millenium',
-        texto: 'Fue una versión similar a su antecesora, pero con la importante mejoría de un amplio reconocimiento de los dispositivos externos, a través de la renovada función plug and play a través de las entradas de puerto USB. ',
     },
     {
         nombre: 'Windows XP',

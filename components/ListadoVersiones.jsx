@@ -8,6 +8,7 @@ const ListadoVersiones = () => {
         {listadoVersiones?.map(version => (
             <Version 
                 version={version}
+                key={version.nombre}
             />
         ))}
      </div>

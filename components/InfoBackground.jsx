@@ -2,7 +2,7 @@ import React from 'react'
 
 const InfoBackground = () => {
   return (
-    <div className='bgColorContainer'>
+    <div className='bgColorContainer p-8'>
         <div className='container'>
             <h2 className='text-2xl text-green-500 font-bold'>Caracteristicas de Windows</h2>
             <ol className='mt-5 flex flex-col gap-2 pl-5'>

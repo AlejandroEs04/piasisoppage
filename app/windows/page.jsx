@@ -13,21 +13,20 @@ export const metadata = {
 
 const WindowsPage = () => {
     return (
-        <div className='flex flex-col justify-center'>
-            <div className='container'>
+        <main className='flex flex-col justify-center'>
+            <div className='container shadow-lg'>
                 <div className='text-justify'>
                     <h1 className='text-3xl font-bold text-blue-600 text-center'>Windows</h1>
                     <p className='text-md mt-2'>Windows es el sistema operativo mas utilizado en la actualidad, este maneja un sin fin de funciones, nos ayuda en facilitar nuestro dia a dia, pero, ¿qué tanto conocemos de esta herramienta?</p>
                 </div>
 
-                <div className='mt-10'>
+                <div className='mt-10 bg-white p-8 rounded-md shadow-lg hover:shadow-2xl transition-shadow'>
                     <InfoWindows />
                 </div>
             </div>
         
             <InfoBackground />
             
-        
             <InfoFunciones />
 
             <InfoVersiones />
@@ -36,7 +35,7 @@ const WindowsPage = () => {
                 <h3 className='text-red-600 font-bold text-2xl'>Referencias</h3>
                 <ListadoReferencias />
             </div>
-        </div>
+        </main>
     )
 }
 

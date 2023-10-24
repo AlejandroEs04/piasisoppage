@@ -23,23 +23,24 @@ const listadoFunciones = [
 const InfoFunciones = () => {
   return (
     <div className='container'>
-        <h2 className='text-2xl font-bold text-amber-500'>¿Cómo funciona Windows?</h2>
-        <p className='text-md'>El sistema operativo gestiona todos los recursos del ordenador, incluyendo el procesador, la memoria y los dispositivos de entrada y salida. Además, Windows cuenta con una amplia variedad de herramientas y programas integrados para realizar tareas como la gestión de archivos, la navegación por Internet y la edición de documentos.</p>
-        <div className='mt-5 flex flex-col'>
-            <h3 className='text-xl font-bold text-amber-500'>Funciones principales de Windows</h3>
-            <ul className='ml-5 flex flex-col gap-2'>
-                {listadoFunciones?.map(funcion => (
-                    <Funciones 
-                        funcion={funcion}
-                    />
-                ))}
-            </ul>
-
+        <div className="bg-white p-8 rounded-md shadow-lg hover:shadow-2xl transition-shadow">
+            <h2 className='text-2xl font-bold text-amber-500'>¿Cómo funciona Windows?</h2>
+            <p className='text-md'>El sistema operativo gestiona todos los recursos del ordenador, incluyendo el procesador, la memoria y los dispositivos de entrada y salida. Además, Windows cuenta con una amplia variedad de herramientas y programas integrados para realizar tareas como la gestión de archivos, la navegación por Internet y la edición de documentos.</p>
+            <div className='mt-5 flex flex-col'>
+                <h3 className='text-xl font-bold text-amber-500'>Funciones principales de Windows</h3>
+                <ul className='ml-5 flex flex-col gap-2'>
+                    {listadoFunciones?.map(funcion => (
+                        <Funciones 
+                            funcion={funcion}
+                            key={funcion.nombre}
+                        />
+                    ))}
+                </ul>                
+            </div>
             <div className='flex flex-col items-center mt-5'>
                 <Image src={'/img/windowsInicio.jpg'} alt='Imagen Inicio Windows' width={1200} height={1000} className='w-full md:w-1/2' />
                 <p className='text-xs text-gray-700 mt-2' >Imagen 2. Inicio de windows, tambien se muestra la barra de tareas</p>
             </div>
-                    
         </div>
     </div>
   )
