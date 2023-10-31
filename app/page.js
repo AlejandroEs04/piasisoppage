@@ -44,8 +44,9 @@ export default function Home() {
         </div>
 
         <div className="w-full sm:w-1/3 xl:w-2/6">
-          <div className="bg-white p-5">
-            <h3>Hoy es un dia para ser feli</h3>
+          <div className="bg-white p-5 rounded-lg shadow">
+            <h3 className="text-2xl font-bold text-blue-800">Conoce <span className="text-3xl">+</span></h3>
+            <p className="mt-2 text-lg">Queremos que conozcas mas acerca del sistema operativo mas usado de todo el mundo, junto sus caracteristicas y sus funciones, ademas de las razones por las cuales Windows es tan popular alrededor de todo el mundo. </p>
           </div>
         </div>
       </div>
