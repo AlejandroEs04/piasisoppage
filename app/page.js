@@ -1,5 +1,5 @@
 import Etiqueta from "@/components/Etiqueta"
-import Link from "next/link"
+import Image from "next/image"
 
 export default function Home() {
 
@@ -31,25 +31,34 @@ export default function Home() {
   ]
 
   return (
-    <main className="container">
-      <h1 className="text-center text-3xl font-black text-blue-800">Inicio</h1>
-      <div className="flex flex-col gap-10 sm:flex-row mt-6">
-        <div className="w-full sm:w-2/3 xl:w-4/6 flex flex-col gap-5">
-          {listadoEtiquetas.map(item => (
-            <Etiqueta 
-              key={item.id}
-              item={item}
-            />
-          ))}
-        </div>
+    <>
+      <div className="w-full h-80">
+        <Image src={'/build/img/fondoMain.jpg'} width={1500} height={1000} alt="Fondo Inicio" className="object-cover w-full h-80" />
+      </div>
+      <main className="container">
+        <h1 className="text-center text-3xl font-black text-blue-800">Inicio</h1>
+        <div className="flex flex-col gap-10 sm:flex-row mt-6">
+          <div className="w-full sm:w-2/3 xl:w-4/6 flex flex-col gap-5">
+            {listadoEtiquetas.map(item => (
+              <Etiqueta 
+                key={item.id}
+                item={item}
+              />
+            ))}
+          </div>
 
-        <div className="w-full sm:w-1/3 xl:w-2/6">
-          <div className="bg-white p-5 rounded-lg shadow">
-            <h3 className="text-2xl font-bold text-blue-800">Conoce <span className="text-3xl">+</span></h3>
-            <p className="mt-2 text-lg">Queremos que conozcas mas acerca del sistema operativo mas usado de todo el mundo, junto sus caracteristicas y sus funciones, ademas de las razones por las cuales Windows es tan popular alrededor de todo el mundo. </p>
+          <div className="w-full sm:w-1/3 xl:w-2/6">
+            <div className="bg-white p-5">
+              <h3 className="text-blue-900 font-bold text-2xl">Conoce+</h3>
+              <p>Queremos que conozcas mas acerca del sistema operativo mas usado de todo el mundo, junto sus caracteristicas y sus funciones, ademas de las razones por las cuales Windows es tan popular alrededor de todo el mundo.</p>
+              <div className="flex justify-center my-5">
+                <Image src={'/img/Windows_logo.png'} width={200} height={200} alt="Logo de Windows 11" />
+              </div>
+              <p>Puedes ingresar a alguno de nuestras secciones, puedes ver nuestros trabajos y ver informacion acerca de Windows</p>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </>
   )
 }

@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 export const metadata = {
     title: 'Windows - Caracteristicas',
     description: 'Informacion relevante de Windows',
@@ -8,8 +5,8 @@ export const metadata = {
 
 const CaracteristicasPage = () => {
   return (
-    <div>
-      a
+    <div className="container">
+      <h2 className="text-2xl font-bold text-blue-800">Caracteristicas de Windows</h2>
     </div>
   )
 }
