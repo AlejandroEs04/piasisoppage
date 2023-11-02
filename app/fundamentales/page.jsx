@@ -9,11 +9,12 @@ const FundamentalesPage = () => {
   return (
     <div className='container'>
       <h1 className='text-3xl font-bold text-blue-600 text-center uppercase'>Fundamentales</h1>
+      <p className="text-center text-lg font-semibold">Haz click en la actividad para descargar el documento PDF</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center gap-5 mt-5">
-        <div className='mt-2 px-2 flex justify-center bg-white py-5 rounded-xl shadow-xl'>
-          <a href={'build/files/'} download>
+        <div className='mt-2 px-2 flex justify-center py-5 rounded-xl'>
+          <a href={'build/files/AF1.pdf'} download>
             <h3 className='text-xl font-bold text-blue-600 transition-all'>Actividad Fundamental 1</h3>
-            <p>Investigacion de sistemas operativos y sus tipos</p>
+            <p>Investigacion de sistemas operativos y sus tipos de SO</p>
             <div className="flex justify-center mt-3">
               <Image 
                 src={'/build/img/fundamental1.png'} 
@@ -25,14 +26,22 @@ const FundamentalesPage = () => {
           </a>
         </div>
 
-        <div className='mt-2 px-2 flex justify-center bg-white py-5 rounded-xl shadow-xl'>
-          <a href={'build/files/'} download>
+        <div className='mt-2 px-2 flex justify-center py-5 rounded-xl'>
+          <a href={'build/files/EvSO.pdf'} download>
             <h3 className='text-xl font-bold text-blue-600 transition-all'>Evolucion de los sistemas operativos</h3>
             <p>Linea del tiempo de la evolucion de los sistemas operativos</p>
+            <div className="flex justify-center mt-3">
+              <Image 
+                src={'/build/img/EvSO.png'} 
+                alt="Imagen Fundamental 1" 
+                height={400} width={200} 
+                className="w-full h-auto shadow px-5"  
+              />
+            </div>
           </a>
         </div>
 
-        <div className='mt-2 px-2 flex justify-center bg-white py-5 rounded-xl shadow-xl'>
+        <div className='mt-2 px-2 flex justify-center py-5 rounded-xl'>
           <a href={'build/files/AF2-multitarea-controlDeConcurrencia 1.pdf'} download>
             <h3 className='text-xl font-bold text-blue-600 transition-all'>Actividad Fundamental 2</h3>
             <p>Investigacion de control de concurrencia y la multitarea</p>
@@ -47,7 +56,7 @@ const FundamentalesPage = () => {
           </a>
         </div>
 
-        <div className='mt-2 px-2 flex justify-center bg-white py-5 rounded-xl shadow-xl'>
+        <div className='mt-2 px-2 flex justify-center py-5 rounded-xl'>
           <a href={'build/files/SIOP_AF3_006 (1).pdf'} download>
             <h3 className='text-xl font-bold text-blue-600 transition-all'>Actividad Fundamental 3</h3>
             <p>Investigacion sobre almacenaje, memoria y archivos</p>
@@ -62,7 +71,7 @@ const FundamentalesPage = () => {
           </a>
         </div>
 
-        <div className='mt-2 px-2 flex justify-center bg-white py-5 rounded-xl shadow-xl'>
+        <div className='mt-2 px-2 flex justify-center py-5 rounded-xl'>
           <a href={'build/files/SIOP_AF3_006 (1).pdf'} download>
             <h3 className='text-xl font-bold text-blue-600 transition-all'>Actividad Fundamental 4</h3>
             <p>Investigacion sobre almacenaje, memoria y archivos</p>
