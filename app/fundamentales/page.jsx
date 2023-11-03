@@ -76,6 +76,12 @@ const FundamentalesPage = () => {
             <h3 className='text-xl font-bold text-blue-600 transition-all'>Actividad Fundamental 4</h3>
             <p>Investigacion sobre almacenaje, memoria y archivos</p>
             <div className="flex justify-center mt-3">
+              <Image 
+                src={'/build/img/fundamental4.png'} 
+                alt="Imagen Fundamental 3" 
+                height={400} width={200} 
+                className="w-full h-auto shadow px-5"  
+              />
             </div>
           </a>
         </div>
