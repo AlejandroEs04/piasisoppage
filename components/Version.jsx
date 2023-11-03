@@ -5,7 +5,7 @@ const Version = ({ version }) => {
     <div className='px-5 py-2 items-center flex flex-col gap-5'>
         <div>
             <h3 className='text-xl font-bold text-red-700'>{version.nombre}</h3>
-            <p className='text-md'>{version.texto}</p>
+            <p className='text-md text-justify'>{version.texto}</p>
         </div>
         
         <div className="flex justify-center">

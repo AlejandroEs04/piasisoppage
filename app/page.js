@@ -50,11 +50,11 @@ export default function Home() {
           <div className="w-full sm:w-1/3 xl:w-2/6">
             <div className="bg-white p-5">
               <h3 className="text-blue-900 font-bold text-2xl">Conoce+</h3>
-              <p>Queremos que conozcas mas acerca del sistema operativo mas usado de todo el mundo, junto sus caracteristicas y sus funciones, ademas de las razones por las cuales Windows es tan popular alrededor de todo el mundo.</p>
-              <div className="flex justify-center my-5">
+              <p className="text-justify">Queremos que conozcas mas acerca del sistema operativo mas usado de todo el mundo, junto sus caracteristicas y sus funciones, ademas de las razones por las cuales Windows es tan popular alrededor de todo el mundo.</p>
+              <div className="flex justify-center my-10">
                 <Image src={'/img/Windows_logo.png'} width={200} height={200} alt="Logo de Windows 11" />
               </div>
-              <p>Puedes ingresar a alguno de nuestras secciones, puedes ver nuestros trabajos y ver informacion acerca de Windows</p>
+              <p className="text-justify">Puedes ingresar a alguno de nuestras secciones, puedes ver nuestros trabajos y ver informacion acerca de Windows</p>
             </div>
           </div>
         </div>

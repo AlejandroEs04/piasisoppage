@@ -17,7 +17,7 @@ const WindowsPage = () => {
             <div className='container shadow-lg'>
                 <div className='text-justify'>
                     <h1 className='text-3xl font-bold text-blue-600 text-center'>Windows</h1>
-                    <p className='text-md mt-2'>Windows es el sistema operativo mas utilizado en la actualidad, este maneja un sin fin de funciones, nos ayuda en facilitar nuestro dia a dia, pero, ¿qué tanto conocemos de esta herramienta?</p>
+                    <p className='text-md mt-2 text-justify'>Windows es el sistema operativo mas utilizado en la actualidad, este maneja un sin fin de funciones, nos ayuda en facilitar nuestro dia a dia, pero, ¿qué tanto conocemos de esta herramienta?</p>
                 </div>
 
                 <div className='mt-10 bg-white p-8 rounded-md shadow-lg hover:shadow-2xl transition-shadow'>

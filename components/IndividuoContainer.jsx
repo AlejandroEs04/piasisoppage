@@ -21,7 +21,7 @@ const IndividuoContainer = ({nombre, correo, matricula, carrera, conclusion, gro
                     {groupConclusion && (
                         <h2 className="text-blue-600 font-bold text-2xl mb-2">Conclusion grupal</h2>
                     )}
-                    <p className={`text-md ${groupConclusion && 'text-xl'}`}>{conclusion}</p>
+                    <p className={`text-md text-justify ${groupConclusion && 'text-xl'}`}>{conclusion}</p>
                 </div>
             </div>
         </div>
