@@ -46,7 +46,7 @@ const InfoBackground = () => {
             <h2 className='text-2xl text-green-500 font-bold'>Caracteristicas de Windows</h2>
             <ol className='mt-5 flex flex-col gap-2 pl-5'>
               {listadoCaracteristicas.slice(0, 5).map(caracteristica => (
-                <li key={caracteristica.id} type='disc' className='text-white text-md'><span className='font-bold text-green-500'>{caracteristica.nombre}: </span>{caracteristica.desc}</li>
+                <li key={caracteristica.id} type='disc' className='text-white text-md text-justify'><span className='font-bold text-green-500'>{caracteristica.nombre}: </span>{caracteristica.desc}</li>
               ))} 
             </ol>
             <Link href={'/windows/caracteristicas'} className="text-center text-gray-400 text-sm mt-5 hover:text-gray-200 transition-colors">Ver mas caracteristicas</Link>

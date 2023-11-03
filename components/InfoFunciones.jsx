@@ -25,7 +25,7 @@ const InfoFunciones = () => {
     <div className='container'>
         <div className="bg-white p-8 rounded-md shadow-lg hover:shadow-2xl transition-shadow">
             <h2 className='text-2xl font-bold text-amber-500'>¿Cómo funciona Windows?</h2>
-            <p className='text-md'>El sistema operativo gestiona todos los recursos del ordenador, incluyendo el procesador, la memoria y los dispositivos de entrada y salida. Además, Windows cuenta con una amplia variedad de herramientas y programas integrados para realizar tareas como la gestión de archivos, la navegación por Internet y la edición de documentos.</p>
+            <p className='text-md text-justify'>El sistema operativo gestiona todos los recursos del ordenador, incluyendo el procesador, la memoria y los dispositivos de entrada y salida. Además, Windows cuenta con una amplia variedad de herramientas y programas integrados para realizar tareas como la gestión de archivos, la navegación por Internet y la edición de documentos.</p>
             <div className='mt-5 flex flex-col'>
                 <h3 className='text-xl font-bold text-amber-500'>Funciones principales de Windows</h3>
                 <ul className='ml-5 flex flex-col gap-2'>

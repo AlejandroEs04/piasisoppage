@@ -14,8 +14,8 @@ const Etiqueta = ({item}) => {
         <div className="flex flex-col md:w-2/3">
           <div className="p-5 w-full">
             <h2 className="font-bold text-xl text-blue-900">{item.titulo}</h2>
-              <p>{item.parrafo1}</p>
-            <p>{item.parrafo2}</p>
+              <p className="text-justify">{item.parrafo1}</p>
+              <p className="text-justify">{item.parrafo2}</p>
           </div>
 
           <div className="flex justify-center">
